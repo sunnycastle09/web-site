@@ -1,15 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>책목록</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
+    <style>
+        body.index-page {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        body.index-page ul {
+            list-style: none;
+            padding: 0;
+            font-size: 4rem; /* 글자 크기 더 키움 */
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 450px; /* 너비도 더 넓게 */
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        body.index-page li {
+            border-bottom: 1px solid #ddd;
+        }
+        body.index-page li:last-child {
+            border-bottom: none;
+        }
+        body.index-page a {
+            display: block;
+            padding: 25px 35px; /* 패딩도 더 넓게 */
+            color: #333;
+            text-decoration: none;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        body.index-page a:hover {
+            background-color: #4a90e2;
+            color: white;
+        }
+    </style>
 </head>
-<body>
-<ul style="font-size: 300%;">
-  <li><a href="book1.html" style="font-size: inherit;">책1</a></li>
-  <li><a href="book2.html" style="font-size: inherit;">책2</a></li>
-</ul>
-
-
+<body class="index-page">
+    <ul>
+      <li><a href="book1.html">책1</a></li>
+      <li><a href="book2.html">책2</a></li>
+      <li><a href="book3.html">책3</a></li>
+      <li><a href="book4.html">책4</a></li>
+      <li><a href="book5.html">책5</a></li>
+      <li><a href="book6.html">책6</a></li>
+      <li><a href="book7.html">책7</a></li>
+      <li><a href="book8.html">책8</a></li>
+      <li><a href="book9.html">책9</a></li>
+      <li><a href="book10.html">책10</a></li>
+      <li><a href="book11.html">책11</a></li>
+      <li><a href="book12.html">책12</a></li>
+      <li><a href="book13.html">책13</a></li>
+      <li><a href="book14.html">책14</a></li>
+      <li><a href="book15.html">책15</a></li>
+      <li><a href="book16.html">책16</a></li>
+      <li><a href="book17.html">책17</a></li>
+      <li><a href="book18.html">책18</a></li>
+      <li><a href="book19.html">책19</a></li>
+      <li><a href="book20.html">책20</a></li>
+      <li><a href="book21.html">책21</a></li>
+      <li><a href="book22.html">책22</a></li>
+      <li><a href="book23.html">책23</a></li>
+      <li><a href="book24.html">책24</a></li>
+      <li><a href="book25.html">책25</a></li>
+      <li><a href="book26.html">책26</a></li>
+      <li><a href="book27.html">책27</a></li>
+      <li><a href="book28.html">책28</a></li>
+      <li><a href="book29.html">책29</a></li>
+      <li><a href="book30.html">책30</a></li>
+    </ul>
 </body>
 </html>
